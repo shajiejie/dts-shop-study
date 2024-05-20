@@ -128,10 +128,10 @@ pagehelper:
 spring:
   datasource:
     druid:
-      url:  jdbc:mysql://localhost:3306/dts-gitee?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false
-      driver-class-name:  com.mysql.jdbc.Driver
-      username:  root
-      password:  Ab888888
+      url: jdbc:mysql://localhost:3306/dts_shop?useSSL=false
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: 12345678
       initial-size:  10
       max-active:  50
       min-idle:  10
